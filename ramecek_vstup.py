@@ -1,3 +1,7 @@
+"""
+Předchozí programy z této sekce uprav tak, aby počet řádků (či velikost čtverce/trojúhelníku/tabulky) mohl zadat uživatel.
+"""
+
 pocet = int(input('Zadej počet řádků: '))
 
 for cislo_radku in range(pocet):
@@ -16,3 +20,16 @@ for x in range(pocet):
     else:
         print ("X"," "*7,"X")
 '''
+"""
+Co dělá tenhle kód?
+"""
+
+
+for c in 'Ahoj světe!':
+    print(c)
+
+"""
+
+for c in 38:
+    print(c)
+""" 
